@@ -10,3 +10,8 @@ Website looks like this:
 Mobile version using meadia query:
 
 ![image](https://github.com/henrfos/gaming-cafe-website/assets/61708921/ed6d9a52-d906-4ab2-bacd-dc29084721a1)
+
+drop-down menu:
+
+![image](https://github.com/henrfos/gaming-cafe-website/assets/61708921/0ec9a984-02e0-4069-a66d-8b1d01aef78d)
+
