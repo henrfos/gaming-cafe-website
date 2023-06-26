@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+  color: rgb(226,226,226);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+  background-color: 	#cc99ff;
+  padding-left: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header nav{
+  background-color: #9999ff;
+}
+
+header nav ul{
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  list-style: none;
+}
+
+header nav ul li{
+  padding: 10px 50px;
+}
+
+header nav ul li a{
+  color: rgb(226, 226, 226);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header nav ul li:hover {
+  background-color: #333333;
+  transition: 0.8s;
+}
+
+
+.XBOX {
+  border-radius: 50em;
+  width: 22em;
+  height: 250px;
+  z-index: 1;
+}
+
+.playstation {
+  border-radius: 50em;
+  width: 22em;
+  height: 250px;
+  z-index: 1;
+}
+
+.computer {
+  border-radius: 50em;
+  width: 22em;
+  height: 250px;
+  z-index: 1;
+}
+
+/*https://www.pexels.com/photo/closeup-photo-of-black-and-blue-keyboard-1194713/?fbclid=IwAR2mMTVFmA6dj-NOXVbDiWu5z4qd6-NUk84MY1ffDDZVz_sLZd_UMLkMA2M - Marta Branco*/
+#PCandconsole {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 0;
+  grid-row-gap: 4em;
+  padding: 7em;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-size: cover;
+  background-image: url('../images/background1.jpeg');
+}
+
+.consoletext {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  right: 12em;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 3em;
+  padding-top: 1.5em;
+  padding-left: 13em;
+  background-color: white;
+}
+
+.consoletext h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #006666;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.consoletext .price {
+  font-family: 'Roboto', sans-serif;
+  color: #5d4954;
+  font-size: 1.2em;
+  text-indent: 0.5em;
+  font-weight: bold;
+}
+
+footer {
+    position: relative;
+    bottom: 0%;
+    text-align: center;
+    font-size: 1em;
+    padding-bottom: 0.5em;
+    background-color: #5d4954;
+    color: white;
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .logo{
+      color: rgb(226,226,226);
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      padding-left: 0;
+      font-size: 20px;
+      background-color: #9A3334;
+      text-align: center;
+  }
+
+.gaming-nav {
+      display: block;
+      height: 40px;
+      width: 100%;
+      background: url('../images/dropdown2.png') no-repeat 98% center;
+      background-color: #9999ff;
+      cursor: pointer;
+}
+
+header nav ul{
+  overflow: hidden;
+  background: #99ccff;
+  flex-direction: column;
+  height: 0;
+  padding: 0px 0px;
+}
+
+header nav ul.open{
+  height: auto;
+}
+
+header nav ul li{
+  text-align: left;
+  width: 100%;
+  padding: 0px 0px;
+}
+
+header nav ul li a{
+  color: #fff;
+  padding: 10px;
+  border-bottom:  1px solid #404040;
+  display: block;
+}
+
+.XBOX, .playstation, .computer{
+  border-radius: 250;
+  width: 100%;
+  height: auto;
+  padding-top: 1em;
+  z-index: 2;
+}
+
+#PCandconsole {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 2em;
+  padding: 0;
+  padding-bottom: 2em;
+  width: 100%;
+}
+
+.consoletext {
+  position: relative;
+  right: 0;
+  top: -12.5em;
+  width: calc (100% - 1em);
+  margin: 0;
+  padding: 1em;
+  padding-top: 10em;
+  background-color: white;
+}
+}
